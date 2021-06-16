@@ -20,5 +20,13 @@ const paintItBrightBlue = () => {
   for (let i = 0; i < children.length; i++) {
     children[i].style.backgroundColor = 'orange'
   }
+}
 
+const fixName = () => {
+  nameInput = document.getElementById("name-change")
+  profileName = document.getElementById("profile-name")
+  if(nameInput.value == "" || null) {
+    alert("ENTER SOMETHING")
+  }
+  profileName.innerHTML = nameInput.value +" AND DON'T FORGET IT"
 }
