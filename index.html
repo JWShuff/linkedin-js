@@ -99,7 +99,7 @@
               <img id="img-profile" src="images/archer.png" />
             </div>
 
-            <div id="div-profile-bio">
+            <div id="div-profile-bio" class='bio'>
               <h3>Bill Gates</h3>
               <p id="bio-summary">Founder of Something</p>
             </div>
@@ -115,7 +115,21 @@
         </div>
 
         <div id="main-right">
-          Right content
+          <p id='color-para'> 
+            Change the color with a toggle!
+          </p>
+          <button onclick="changeColor('blue');">
+            blue
+          </button>
+          <button onclick="changeColor('red');">
+            red
+          </button>
+          <h6>
+            Invert the font color of the profile!
+          </h6>
+          <button onclick="flipColor()">
+            flip it
+          </button>
         </div>
 
       </div>
