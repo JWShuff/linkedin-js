@@ -8,7 +8,17 @@ const flipColor = () => {
   elem.style.color = 'white'
 }
 
-const findListItem = (selector) => {
-  var elem = document.querySelector(selector)
-  return elem
+const paintItBlack = () => {
+  children = document.querySelectorAll('div');
+  for(let i = 0; i < children.length; i++) {
+    children[i].style.backgroundColor = 'black'
+  }
+}
+
+const paintItBrightBlue = () => {
+  children = document.querySelectorAll('div');
+  for (let i = 0; i < children.length; i++) {
+    children[i].style.backgroundColor = 'orange'
+  }
+
 }
