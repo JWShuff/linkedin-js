@@ -7,16 +7,16 @@ body {
 }
 
 #navbar-menu>li {
-  color: #747474;
+  color: #333;
   list-style-type: none;
   display: inline;
 }
 #navbar-menu li a {
-  color: #747474;
+  color: #333;
   text-decoration: none;
 }
 #navbar-menu li a:hover {
-  color: #747474;
+  color: #000;
   text-decoration: underline;
 }
 
@@ -35,7 +35,7 @@ body {
 }
 
 #div-nav {
-  background-color: #CC9999;
+  background-color: #2090ff;
   height: 60px;
 }
 
